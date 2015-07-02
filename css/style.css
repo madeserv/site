@@ -95,13 +95,18 @@ nav {
 .btn-group-lg > .btn {
 	padding: 10px 25px;
 	font-size: 13px;
-    background: rgba(17, 17, 17, 0.8);
-    color: #fff;
+  background: rgba(17, 17, 17, 0.8);
+  color: #fff;
 }
 .btn-lg:hover,
 .btn-group-lg > .btn:hover{
-    background: rgba(17, 17, 17, 1.8);
-    color: #fff;
+  background: rgba(17, 17, 17, 1.8);
+  color: #fff;
+}
+
+.btn-lg:focus,
+.btn-group-lg > .btn:focus {
+  color: #fff;
 }
 
 .btn-sm,
@@ -121,18 +126,22 @@ nav {
 /* ---------------------------------------------- */
 
 .form-control {
-  	background: #FFF;
-  	border: 1px solid #D8E1E4;
-  	padding: 0 15px;
+  background: #FFF;
+  border: 1px solid #D8E1E4;
+  width: padding: 0 15px;
 }
 
 textarea.form-control {
-	  padding: 15px;
-    max-width: 100%;
-    min-width: 100%;
+  padding: 15px;
+  max-width: 100%;
+  min-width: 100%;
 }
 
 .sent {
-  	font-weight: bold;
-    text-align: justify;
+  font-weight: bold;
+  color: #33CC66;
+}
+
+.error {
+  color: #ff0000;
 }
