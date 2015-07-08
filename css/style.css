@@ -11,6 +11,7 @@ body {
 
 nav {
     border-radius: 3px;
+    behavior: url(./js/PIE.htc);
     background-color: #F8F8F8;
     border-color: #E7E7E7;
     text-align: center;
@@ -26,6 +27,7 @@ nav {
 
 .content {
     border-radius: 3px;
+    behavior: url(./js/PIE.htc);
     background-color: #F8F8F8;
     border-color: #E7E7E7;
     min-height: 600px;
