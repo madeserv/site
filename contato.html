@@ -33,6 +33,7 @@
     <script src="./js/jquery.1.11.1.min.js" type="text/javascript"></script>
     <script src="./js/bootstrap.3.3.4.min.js" type="text/javascript"></script>
     <script src="./js/custom.js" type="text/javascript"></script>
+    <script src="./js/jquery.placeholder.min.js" type="text/javascript"></script>
 
     <!-- CSS -->
     <link href="./css/bootstrap.3.3.4.min.css" rel="stylesheet" type="text/css">
@@ -178,5 +179,19 @@
           </div><!-- .row -->
       </div><!-- .container -->
       <!-- CONTENT END -->
+
+      <script>
+        $(function() {
+          // Invoke the plugin
+          $('input, textarea').placeholder({customClass:'my-placeholder'});
+          // That’s it, really.
+          // Now display a message if the browser supports placeholder natively
+          var html;
+          if (html) {
+            $('<p class="note">' + html + '</p>').insertAfter('form');
+          }
+        });
+      </script>
+
   </body>
 </html>
